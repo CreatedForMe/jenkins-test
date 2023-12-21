@@ -22,7 +22,7 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello(Model model){
         model.addAttribute("hello", "hello-jenkins");
-
+        System.out.println("test");
         return "hello";
     }
 }
