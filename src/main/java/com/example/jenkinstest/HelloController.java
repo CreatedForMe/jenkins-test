@@ -24,6 +24,8 @@ public class HelloController {
         model.addAttribute("hello", "hello-jenkins");
         System.out.println("test-hi");
         System.out.println("test-hdi");
+        System.out.println("test-hdi");
+        System.out.println("test-hdi");
         return "hello";
     }
 }
