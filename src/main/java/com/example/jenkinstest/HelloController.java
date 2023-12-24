@@ -23,8 +23,6 @@ public class HelloController {
     public String hello(Model model){
         model.addAttribute("hello", "hello-jenkins");
         System.out.println("test");
-        System.out.println("testtest");
-        System.out.println("testtest");
         return "hello";
     }
 }
