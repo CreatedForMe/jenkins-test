@@ -25,7 +25,6 @@ public class HelloController {
         System.out.println("test-hi");
         System.out.println("test-hdi");
         System.out.println("test-hdi");
-        System.out.println("test-hdi");
         return "hello";
     }
 }
